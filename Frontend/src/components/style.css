@@ -1,0 +1,135 @@
+/* ====== Global Styling ====== */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* ====== Headings ====== */
+h2, h3 {
+  text-align: center;
+  margin: 20px 0;
+  color: #222;
+}
+
+/* ====== Banner Messages ====== */
+.message-banner {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* ====== Forms ====== */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.form-grid input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-grid input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.4);
+}
+
+/* ====== Buttons ====== */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn-blue {
+  background: #0077cc;
+  color: white;
+}
+
+.btn-blue:hover {
+  background: #005fa3;
+}
+
+.btn-green {
+  background: #28a745;
+  color: white;
+}
+
+.btn-green:hover {
+  background: #218838;
+}
+
+.btn-red {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-red:hover {
+  background: #b02a37;
+}
+
+.btn-gray {
+  background: #6c757d;
+  color: white;
+}
+
+.btn-gray:hover {
+  background: #565e64;
+}
+
+/* ====== Tables ====== */
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+table thead {
+  background: #0077cc;
+  color: white;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background: #f1f1f1;
+}
